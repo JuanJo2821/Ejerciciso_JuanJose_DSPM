@@ -40,6 +40,7 @@ function Contactos() {
     return (
         <>
             <h2>Mis Contactos</h2>
+            <img src="/images.jpg" alt="Imagen pintura" width="200" />
             <FormuContacto onAdd={addContacto} />
             <ListaContacto contactos={contactos} onDelete={deleteContacto} />
         </>
